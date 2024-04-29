@@ -8,7 +8,6 @@ import About from './Components/About/About'
 import Contact from './Components/Contact/Contact'
 import User from './Components/User/User'
 import Github, { githubInfoLoader } from './Components/Github/Github'
-import GitUser from './Components/Github/GitUser'
 
 
 
