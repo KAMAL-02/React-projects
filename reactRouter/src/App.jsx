@@ -8,6 +8,7 @@ import About from './Components/About/About'
 import Contact from './Components/Contact/Contact'
 import User from './Components/User/User'
 import Github, { githubInfoLoader } from './Components/Github/Github'
+// import GithubFollowers , {githubFollowerLoader} from "./Components/Github/GithubFollowers"
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='Contact' element = {<Contact/>}/>
         <Route path='user/:userId' element = {<User/>}/>
         <Route loader={githubInfoLoader} path='Github' element={<Github />}/>
+        {/* <Route loader={githubFollowerLoader} path='Github/:userId' element={<GithubFollowers/>}/> */}
       </Route>
     )
   )
